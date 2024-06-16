@@ -1,0 +1,38 @@
+name: admin_flutter
+description: "admin Flutter"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.3
+  lottie: ^3.1.2
+  animated_text_kit: 4.2.2
+  dio: ^5.4.3+1
+  #dio_http_cache: ^0.3.0
+  dio_cookie_manager: ^3.1.1
+  cookie_jar: ^4.0.8
+  connectivity_plus: ^6.0.3
+  easy_refresh: ^3.4.0
+  package_info_plus: ^8.0.0
+  device_frame: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.0
+  build_web_compilers: ^4.0.4
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/base/
+    - assets/images/
