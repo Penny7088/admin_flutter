@@ -6,6 +6,9 @@ import 'main_state.dart';
 class MainController extends CommonController<MainState> {
   final MainState state = MainState();
 
+  MainController(String tag){
+    controllerTag = tag;
+  }
   @override
   MainState createState() {
    return state;

@@ -21,7 +21,7 @@ class AppRouter{
         page: () => const SplashPage(),
       ),
       GetPage(
-        name: RouterId.splash,
+        name: RouterId.main,
         page: () => const MainPage(),
       ),
       GetPage(
@@ -38,7 +38,7 @@ class AppRouter{
 
   // 设置默认入口页
   static configNormalRouts() {
-    return RouterId.login1;
+    return RouterId.login;
   }
 }
 

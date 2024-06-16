@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 import '../../../base/controller/common_controller.dart';
+import '../../router/app_router.dart';
 import 'state.dart';
 
 /// FileName controller
@@ -67,7 +68,7 @@ class LoginController extends CommonController<LoginState> {
     state.isClickLogin.value = true;
 
     if (state.userName.text == 'admin' && state.password.text == '123456') {
-
+      currentOffName(name: RouterId.main);
       debugPrint('enter home page ..');
     }
   }
