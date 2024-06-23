@@ -24,7 +24,8 @@ dependencies:
   easy_refresh: ^3.4.0
   package_info_plus: ^8.0.0
   device_frame: ^1.2.0
-
+  provider: ^6.0.5
+  flutter_svg: ^1.0.3
 dev_dependencies:
   flutter_test:
     sdk: flutter

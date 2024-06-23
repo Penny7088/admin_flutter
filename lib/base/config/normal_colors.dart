@@ -14,6 +14,7 @@ class NormalColorS {
   static const Color transparent = Colors.transparent;
 
   static const Color colefedf3 = Color(0xFFefedf3);
+  static const Color colF5F7FA = Color(0xFFF5F7FA);
 
   static const Color cole3e3e3 = Color(0xFFe3e3e3);
   static const Color col7f7f7f = Color(0xFF7f7f7f);
